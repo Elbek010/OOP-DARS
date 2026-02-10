@@ -1,0 +1,93 @@
+; Python OOP - Meros olish (Inheritance) bo‘yicha 50 ta mashq
+; Quyidagi mashqlar o‘quvchilarga Python dasturlash tilida meros olish mavzusini mustahkamlash uchun mo‘ljallangan. Har bir topshiriq amaliy tarzda sinab ko‘rilishi mumkin.
+
+; 1. Avto nomli klass yarating, undan Mersedes nomli klass meros olsin.
+
+; 2. Ota klassda ism va yosh atributlarini, bola klassda maktab nomini saqlang.
+
+; 3. Hayvon klassidan mushuk va it klasslarini meros oling.
+
+; 4. Avto klassida info metodini yarating, bola klassda uni qayta yozing.
+
+; 5. Talaba klassidan bakalavr va magistr klasslari meros olsin.
+
+; 6. Ustoz klassidan InformatikaUstoz klassini meros oling.
+
+; 7. Texnika klassidan Kompyuter klassini hosil qiling.
+
+; 8. Ota klassdagi metodni super() yordamida chaqirib, unga qo‘shimcha ma’lumot qo‘shing.
+
+; 9. Shaxs klassidan O‘qituvchi klassini meros oling.
+
+; 10. Mashina klassidan YukMashina klassini meros oling.
+
+; 11. Uchuvchi nomli klassdan HarbiyUchuvchi klassini meros oling.
+
+; 12. Kitob klassidan Darslik klassini meros oling.
+
+; 13. Hayvon klassida ovoz() metodi bo‘lsin, it va mushukda uni qayta yozing.
+
+; 14. Qurilma klassidan Telefon va Noutbuk klasslarini meros oling.
+
+; 15. Kompaniya klassidan Ishchi klassini meros oling.
+
+; 16. Ota klassda 3 ta atribut, bola klassda yana 2 ta yangi atribut bo‘lsin.
+
+; 17. Transport klassidan Avtobus va Poyezd klasslarini meros oling.
+
+; 18. Shaxs klassidan Talaba va O‘qituvchi klasslarini meros oling.
+
+; 19. Maxsulot klassidan Meva klassini meros oling.
+
+; 20. Binodan Uy klassini meros oling va yangi metod qo‘shing.
+
+; 21. Ota klassdagi metodni super() yordamida kengaytiring.
+
+; 22. Kitob klassidan ElektronKitob klassini meros oling.
+
+; 23. Mashina klassidan ElektroAvto klassini hosil qiling.
+
+; 24. Ota klassda hisoblash() metodini yarating, bola klassda uni qayta yozing.
+
+25. Hayvon klassidan Qush klassini meros oling va uchish() metodini qo‘shing.
+
+26. Maktab klassidan Sinf klassini meros oling.
+
+27. Avto klassidan Mercedes, Chevrolet klasslarini meros oling.
+
+28. Texnika klassidan Printer va Skanner klasslarini meros oling.
+
+29. Sportchi klassidan Futbolchi klassini meros oling.
+
+30. Student klassidan Talaba klassini meros oling, yangi atribut qo‘shing.
+
+31. Ota klassdagi atributni bola klassda o‘zgartiring.
+
+32. Ota klass metodini bola klassda yangicha natija bilan qayta yozing.
+
+33. Bir nechta klasslardan meros oluvchi klass yarating (Multiple Inheritance).
+
+34. Ota klassdagi init metodini super() yordamida chaqiring.
+
+35. Hayvon klassidan mushuk va baliq klasslarini meros oling.
+
+36. Kompaniya klassidan ITKompaniya klassini meros oling.
+
+37. Maxsulot klassidan Ichimlik klassini meros oling.
+
+38. Uskuna klassidan Televizor klassini meros oling.
+
+39. Avto klassidan Elektromobil klassini meros oling.
+
+40. Shaxs klassidan Talaba va O‘qituvchi klasslarini yarating, ularni birlashtiruvchi klass yozing.
+
+41. Inson klassidan Shifokor klassini meros oling.
+42. Kitob klassidan AudioKitob klassini meros oling.
+43. Qurilma klassidan SmartWatch klassini meros oling.
+44. Sportchi klassidan Basketbolchi va Futbolchi klasslarini meros oling.
+45. Kompaniya klassidan Rahbar klassini meros oling.
+46. Hayvon klassidan Ot klassini meros oling.
+47. Mashina klassidan YengilMashina va YukMashina klasslarini meros oling.
+48. Shaxs klassidan Dasturchi klassini meros oling.
+49. Avto klassidan Detail klassini meros oling va barcha metodlarni birlashtiring.
+50. Ota va bola klasslardan obyekt yaratib, har ikkala metodni sinab ko‘ring.
