@@ -659,17 +659,31 @@
 # print(qush1.uchish())
         
 # 26-misol
-# Maktab klassidan Sinf klassini meros oling.
-class maktab:
-    def __init__(self, nomi, manzili):
-        self.nomi = nomi
-        self.manzili = manzili
-        self.oquvchilar = []
-        self.oquvchilar_soni = 0
 
-    def oquvchi_qoshish(self, oquvchi):
-        self.oquvchilar.append(oquvchi)
-        self.oquvchilar_soni += 1
+# class maktab:
+#     def __init__(self, nomi, manzili):
+#         self.nomi = nomi
+#         self.manzili = manzili
+#         self.oquvchilar = []
+#         self.oquvchilar_soni = 0
+
+#     def oquvchi_qoshish(self, oquvchi):
+#         self.oquvchilar.append(oquvchi)
+#         self.oquvchilar_soni += 1
+#         return f"O'quvchi nomi: {oquvchi.nomi}\nO'quvchi yoshi: {oquvchi.yoshi}\nO'quvchi sinfi: {oquvchi.sinfi}"
+# class sinf(maktab):
+#     def __init__(self, nomi, manzili, sinf_nomi):
+#         super().__init__(nomi, manzili)
+#         self.sinf_nomi = sinf_nomi
+
+#     def get_info(self):
+#         return f"Maktab nomi: {self.nomi}\nMaktab manzili: {self.manzili}\nSinf nomi: {self.sinf_nomi}\nO'quvchilar soni: {self.oquvchilar_soni}"
+# oquvchi1 = sinf("20-maktab", "Toshkent", "10-A")
+# print(oquvchi1.get_info())
+
+# 27-misol
+
+
             
 
 
