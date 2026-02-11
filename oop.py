@@ -643,9 +643,34 @@
 
 # 25-misol
 
-class hayvon:
-    def __init__(self,teri,):
+# class hayvon:
+#     def __init__(self,teri,oyoq):
+#         self.teri = teri
+#         self.oyoq = oyoq
+#     def get_info(self):
+#         return f"Hayvon terisi: {self.teri}\nHayvon oyoqlari soni: {self.oyoq}"
+# class qush(hayvon):
+#     def __init__(self, teri, oyoq, qanot):
+#         super().__init__(teri, oyoq)
+#         self.qanot = qanot
+#     def uchish(self):
+#         return f"{self.get_info()}\nQush qanotlari: {self.qanot}\nQush uchishi mumkin"
+# qush1 = qush("Tukli", 2, "Katta")
+# print(qush1.uchish())
+        
+# 26-misol
+# Maktab klassidan Sinf klassini meros oling.
+class maktab:
+    def __init__(self, nomi, manzili):
+        self.nomi = nomi
+        self.manzili = manzili
+        self.oquvchilar = []
+        self.oquvchilar_soni = 0
 
+    def oquvchi_qoshish(self, oquvchi):
+        self.oquvchilar.append(oquvchi)
+        self.oquvchilar_soni += 1
+            
 
 
 
