@@ -683,8 +683,121 @@
 
 # 27-misol
 
+# class avto:
+#     def __init__(self, nomi, narxi, yili, rangi):
+#         self.nomi = nomi
+#         self.narxi = narxi
+#         self.yili = yili
+#         self.rangi = rangi
 
-            
+#     def get_info(self):
+#         return f"Mashina nomi: {self.nomi}\nMashina narxi: {self.narxi}\nMashina yili: {self.yili}\nMashina rangi: {self.rangi}"
+# class BMW(avto):
+#     def __init__(self, nomi, narxi, yili, rangi, model):
+#         super().__init__(nomi, narxi, yili, rangi)
+#         self.model = model
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nModel: {self.model}"
+# class chevrolet(avto):  
+#     def __init__(self, nomi, narxi, yili, rangi, model):
+#         super().__init__(nomi, narxi, yili, rangi)
+#         self.model = model
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nModel: {self.model}"
+# chevrolet1 = chevrolet("Chevrolet Malibu", 15000, 2021, "oq", "Malibu")
+# print(chevrolet1.get_info())
+# bmw1 = BMW("BMW m5", 20000, 2020, "qora", "M5")
+# print(bmw1.get_info())
+
+# 28-misol
+
+# class texnika:
+#     def __init__(self, nomi, modeli):
+#         self.nomi = nomi
+#         self.modeli = modeli
+
+#     def get_info(self):
+#         return f"Texnika nomi: {self.nomi}\nTexnika modeli: {self.modeli}"
+# class printer(texnika):
+#     def __init__(self, nomi, modeli, rang):
+#         super().__init__(nomi, modeli)
+#         self.rang = rang
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nPrinter rangi: {self.rang}"
+# class skanner(texnika):
+#     def __init__(self, nomi, modeli, tezlik):
+#         super().__init__(nomi, modeli)
+#         self.tezlik = tezlik
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nSkanner tezligi: {self.tezlik} sahifa/dakika"
+# printer1 = printer("HP", "LaserJet Pro MFP M227fdw", "Qora")
+# print(printer1.get_info())
+# skanner1 = skanner("Canon", "CanoScan LiDE 400", 8)
+# print(skanner1.get_info())
+
+# 29-misol
+
+# class Sportchi:
+#     def __init__(self, ism, yosh, sport_turi):
+#         self.ism = ism
+#         self.yosh = yosh
+#         self.sport_turi = sport_turi
+
+#     def get_info(self):
+#         return f"Sportchi nomi: {self.ism}\nYoshi: {self.yosh}\nSport turi: {self.sport_turi}"
+# class Futbolchi(Sportchi):
+#     def __init__(self, ism, yosh, sport_turi, jamoa):
+#         super().__init__(ism, yosh, sport_turi)
+#         self.jamoa = jamoa
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nJamoasi: {self.jamoa}"
+# futbolchi1 = Futbolchi("Lionel Messi", 36, "Futbol", "Paris Saint-Germain")
+# print(futbolchi1.get_info())
+
+
+# 30-misol
+
+# class Student:
+#     def __init__(self, name, age):
+#         self.name = name
+#         self.age = age
+
+#     def get_info(self):
+#         return f"Student name: {self.name}\nStudent age: {self.age}"
+# class Talaba(Student):
+#     def __init__(self, name, age, fakultet):
+#         super().__init__(name, age)
+#         self.fakultet = fakultet
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nFakultet: {self.fakultet}"
+# talaba1 = Talaba("Elbek", 20, "Informatika")
+# print(talaba1.get_info())
+
+# 31-misol
+
+class mexmonxona:
+    def __init__(self,nomi,xonlar,yulduz):
+        self.nomi = nomi
+        self.xonalar = xonlar
+        self.yulduz = yulduz
+
+    def info(self):
+        return f"Mexmonxona nomi: {self.nomi}\nXonalari soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}"
+class kafe(mexmonxona):
+    def __init__(self, nomi, xonlar, yulduz,stollar_soni):
+        super().__init__(nomi, xonlar, yulduz)
+        self.stollar_soni = stollar_soni
+
+    def get_info(self):
+        return f"Kafe nomi: {self.nomi}\nXonalar soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}\nStollar soni: {self.stollar_soni}"
+kafe1 = kafe("Sim-sim","4 ta ","3.5","8 ta")
+print(kafe1.get_info())
 
 
 
