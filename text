@@ -61,13 +61,13 @@
 
 ; 30. Student klassidan Talaba klassini meros oling, yangi atribut qo‘shing.
 
-31. Ota klassdagi atributni bola klassda o‘zgartiring.
+; 31. Ota klassdagi atributni bola klassda o‘zgartiring.
 
-32. Ota klass metodini bola klassda yangicha natija bilan qayta yozing.
+; 32. Ota klass metodini bola klassda yangicha natija bilan qayta yozing.
 
-33. Bir nechta klasslardan meros oluvchi klass yarating (Multiple Inheritance).
+; 33. Bir nechta klasslardan meros oluvchi klass yarating (Multiple Inheritance).
 
-34. Ota klassdagi init metodini super() yordamida chaqiring.
+; 34. Ota klassdagi init metodini super() yordamida chaqiring.
 
 35. Hayvon klassidan mushuk va baliq klasslarini meros oling.
 
@@ -82,12 +82,21 @@
 40. Shaxs klassidan Talaba va O‘qituvchi klasslarini yarating, ularni birlashtiruvchi klass yozing.
 
 41. Inson klassidan Shifokor klassini meros oling.
+
 42. Kitob klassidan AudioKitob klassini meros oling.
+
 43. Qurilma klassidan SmartWatch klassini meros oling.
+
 44. Sportchi klassidan Basketbolchi va Futbolchi klasslarini meros oling.
+
 45. Kompaniya klassidan Rahbar klassini meros oling.
+
 46. Hayvon klassidan Ot klassini meros oling.
+
 47. Mashina klassidan YengilMashina va YukMashina klasslarini meros oling.
+
 48. Shaxs klassidan Dasturchi klassini meros oling.
+
 49. Avto klassidan Detail klassini meros oling va barcha metodlarni birlashtiring.
+
 50. Ota va bola klasslardan obyekt yaratib, har ikkala metodni sinab ko‘ring.

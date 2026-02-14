@@ -756,7 +756,7 @@
 
 #     def get_info(self):
 #         return f"{super().get_info()}\nJamoasi: {self.jamoa}"
-# futbolchi1 = Futbolchi("Lionel Messi", 36, "Futbol", "Paris Saint-Germain")
+# futbolchi1 = Futbolchi("Ronaldo", 36, "Futbol", "Paris Saint-Germain")
 # print(futbolchi1.get_info())
 
 
@@ -781,25 +781,109 @@
 
 # 31-misol
 
-class mexmonxona:
-    def __init__(self,nomi,xonlar,yulduz):
-        self.nomi = nomi
-        self.xonalar = xonlar
-        self.yulduz = yulduz
+# class mexmonxona:
+#     def __init__(self,nomi,xonlar,yulduz):
+#         self.nomi = nomi
+#         self.xonalar = xonlar
+#         self.yulduz = yulduz
 
-    def info(self):
-        return f"Mexmonxona nomi: {self.nomi}\nXonalari soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}"
-class kafe(mexmonxona):
-    def __init__(self, nomi, xonlar, yulduz,stollar_soni):
-        super().__init__(nomi, xonlar, yulduz)
-        self.stollar_soni = stollar_soni
+#     def info(self):
+#         return f"Mexmonxona nomi: {self.nomi}\nXonalari soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}"
+# class kafe(mexmonxona):
+#     def __init__(self, nomi, xonlar, yulduz,stollar_soni):
+#         super().__init__(nomi, xonlar, yulduz)
+#         self.stollar_soni = stollar_soni
 
-    def get_info(self):
-        return f"Kafe nomi: {self.nomi}\nXonalar soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}\nStollar soni: {self.stollar_soni}"
-kafe1 = kafe("Sim-sim","4 ta ","3.5","8 ta")
-print(kafe1.get_info())
+#     def get_info(self):
+#         return f"Kafe nomi: {self.nomi}\nXonalar soni: {self.xonalar}\nYulduzlar soni: {self.yulduz}\nStollar soni: {self.stollar_soni}"
+# kafe1 = kafe("Sim-sim","4 ta ","3.5","8 ta")
+# print(kafe1.get_info())
+
+# 32-misol
+
+# class Airaport:
+#     def __init__(self,nomi,maydon,yolak_soni,haftada_ishlash):
+#         self.nomi = nomi
+#         self.maydon = maydon
+#         self.yolak_soni = yolak_soni
+#         self.ishlash_kunlari = haftada_ishlash
+#         self.ishchi = []
+#         self.ishchi_soni = 0
+
+#     def asistant(self,staf_name):
+#         self.ishchi.append(staf_name)
+
+#     def info(self):
+#         return f"Airaport nomi: {self.nomi}\nMaydon: {self.maydon} kvadrat metr\nYolak soni: {self.yolak_soni}\nHaftada ishlash kunlari: {self.ishlash_kunlari}\nIshchilar soni: {self.ishchi_soni}"
+# class Staf(Airaport):
+#     def __init__(self, nomi, maydon, yolak_soni, haftada_ishlash, ishchi_nomi):
+#         super().__init__(nomi, maydon, yolak_soni, haftada_ishlash)
+#         self.ishchi_nomi = ishchi_nomi
+#         self.ishchi_soni += 1
+
+#     def get_info(self):
+#         return f"Airaport nomi: {self.nomi}\nMaydon: {self.maydon} kvadrat metr\nYolak soni: {self.yolak_soni}\nHaftada ishlash kunlari: {self.ishlash_kunlari}\nIshchi nomi: {self.ishchi_nomi}\nIshchilar soni: {self.ishchi_soni}"
+# staf1 = Staf("Toshkent Airaport", 50000, 3, "7 kun", "Ali")
+# print(staf1.get_info())
+
+# 33-misol
+
+# class mashina:
+#     def __init__(self, nomi, narxi):
+#         self.nomi = nomi
+#         self.narxi = narxi
+
+#     def get_info(self):
+#         return f"Mashina nomi: {self.nomi}\nMashina narxi: {self.narxi}"
+# class avto(mashina):
+#     def __init__(self, nomi, narxi, modeli):
+#         super().__init__(nomi, narxi)
+#         self.modeli = modeli
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nModel: {self.modeli}"
+# class sportcar(mashina):
+#     def __init__(self, nomi, narxi, tezlik):
+#         super().__init__(nomi, narxi)
+#         self.tezlik = tezlik
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nTezlik: {self.tezlik} km/s"
+# class sportavto(avto, sportcar):
+#     def __init__(self, nomi, narxi, modeli, tezlik):
+#         avto.__init__(self, nomi, narxi, modeli)
+#         sportcar.__init__(self, nomi, narxi, tezlik)
+
+#     def get_info(self):
+#         return f"{avto.get_info(self)}\nTezlik: {self.tezlik} km/s"
+# sportavto1 = sportavto("Lamborgini", 300000, "Aventador", 350)
+# print(sportavto1.get_info())
+
+# 34-misol
+
+# class qush:
+#     def __init__(self,nomi,qanot,rang):
+#         self.nomi = nomi 
+#         self.qanot = qanot
+#         self.rang = rang
+
+#     def info(self):
+#         return f"Qush nomi: {self.nomi}\nQanot uzunligi: {self.qanot}\nRang: {self.rang}"
+# class burgut(qush):
+#     def __init__(self, nomi, qanot, rang,tezligi):
+#         super().__init__(nomi, qanot, rang)
+#         self.tezlik = tezligi
+
+#     def get_info(self):
+#         return f"Qush nomi: {self.nomi}\nQanot uzunligi: {self.qanot}\nRang: {self.rang}\nTezligi: {self.tezlik}"
+
+# qush1 = burgut("burgut","2.8 m","oq","87km/h")
+# print(qush1.get_info())
 
 
+# 35-misol
+
+class 
 
         
         
