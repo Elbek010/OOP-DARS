@@ -883,15 +883,56 @@
 
 # 35-misol
 
-class 
+# class hayvon:
+#     def __init__(self,nomi,tail,oziga_xos_hususiyat):
+#         self.nomi = nomi
+#         self.tail = tail
+#         self.oziga_xos_hususiyat = oziga_xos_hususiyat
+ 
+
+#     def info(self):
+#         return f"Nomi: {self.nomi}\nDumi: {self.tail}\nO'ziaga hos hususiyati: {self.oziga_xos_hususiyat}"
+    
+
+# class mushuk(hayvon):
+#     def __init__(self, nomi, tail, oziga_xos_hususiyat,rangi):
+#         super().__init__(nomi, tail, oziga_xos_hususiyat)
+#         self.rangi = rangi
+
+#     def info_cat(self):
+#         return f"Nomi: {self.nomi}\nDumi: {self.tail}\nO'ziaga hos hususiyati: {self.oziga_xos_hususiyat}\nRngi: {self.rangi}"
 
         
         
+# class baliq(hayvon):
+#     def __init__(self, nomi, tail, oziga_xos_hususiyat,terisi):
+#         super().__init__(nomi, tail, oziga_xos_hususiyat)
+    
+#         self.terisi = terisi
+
+#     def info_fish(self):
+#         return f"Nomi: {self.nomi}\nDumi: {self.tail}\nO'ziaga hos hususiyati: {self.oziga_xos_hususiyat}\nterisi: {self.terisi} bilan qoplangan"
+
+# cat = mushuk("meav","uzun","tez","qora,negr")
+# fish  = baliq("sazan","suzgich","suvda nafas oladi","tilla")
+# print(cat.info_cat())
+# print(fish.info_fish())
 
 
+# 36-misol
+
+# class kompaniya:
+#     def __init__(self,nomi,ishchilar):
+#         self.nomi = nomi
+#         self.ishchilar = ishchilar
+    
+#     def 
+
+    
+     
 
 
-
+        
 
 
 
