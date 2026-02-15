@@ -921,12 +921,12 @@
 
 # 36-misol
 
-# class kompaniya:
-#     def __init__(self,nomi,ishchilar):
-#         self.nomi = nomi
-#         self.ishchilar = ishchilar
+class kompaniya:
+    def __init__(self,nomi,ishchilar):
+        self.nomi = nomi
+        self.ishchilar = ishchilar
     
-#     def 
+    def 
 
     
      
