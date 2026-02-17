@@ -921,14 +921,148 @@
 
 # 36-misol
 
-class kompaniya:
-    def __init__(self,nomi,ishchilar):
-        self.nomi = nomi
-        self.ishchilar = ishchilar
-    
-    def 
 
-    
+# class kampaniya : 
+#     def init(self, ishchi):
+#         self.ishchi = ishchi
+# class Itkampaniya (kampaniya):
+#     def init(self, ishchi , kamyuter):
+#         self.kampyuter = kamyuter
+#         super().init(ishchi)
+#     def info(self):
+#         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}"
+# kam1 = Itkampaniya(10 , 20)
+# print(kam1.info())
+# 37-misol
+# class mahsulot : 
+#     def init(self , sroq , nomi , malumot ):
+#         self.sroq = sroq 
+#         self.nomi = nomi 
+#         self.malumot = malumot
+# class ichimlik (mahsulot):
+#     def init(self, sroq, nomi, malumot , qadoq):
+#         self.qadoq = qadoq
+#         super().init(sroq, nomi, malumot) 
+#     def info(self):
+#         return f"Yaroqlilik muddati : {self.sroq}\n Nomi : {self.nomi}\n U haqida malumot : {self.malumot}\n Qadoqlangami ? {self.qadoq}"
+# market = ichimlik("05.06.2026 gacha" , "CocaCola" , "gazlangan mazali ichimlik" , "ha" )
+# print(market.info())
+# 38-misol
+# class uskuna :
+#     def init(self , tok , nomi ):
+#         self.nomi = nomi
+#         self.tok = tok
+# class televizor(uskuna):
+#     def init(self, tok, nomi , ekran_kattaligi , smart):
+#         self.ekran = ekran_kattaligi
+#         self.smart = smart
+#         super().init(tok, nomi)
+#     def info(self):
+#         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran kattaligi : {self.ekran}\n TV/smart TV : {self.smart}"
+# moslama = televizor(220 , "Roison" , 43 , "smart TV")
+# print(moslama.info())
+# 39-misol
+# class auto :
+#     def init(self , rang , mator):
+#         self.rang = rang
+#         self.mator = mator 
+# class elektomabil(auto):
+#     def init(self, rang, mator , zaryadka):
+#         self.zaryad = zaryadka
+#         super().init(rang, mator)
+#     def info(self):
+#         return f"mashina rangi : {self.rang}\n mashina mator hajmi : {self.mator}\n zaryadka necha km ga yetadi : {self.zaryad}"
+# auto1 = elektomabil("Qora" , 3 , 17.000)
+# print(auto1.info())
+# 40-misol
+# class shaxs :
+#     def init(self , ism , familya , yosh , pasport):
+#         self.ism = ism
+#         self.familya = familya
+#         self.yosh = yosh 
+#         self.pasport =pasport
+# class talaba(shaxs):
+#     def init(self, ism, familya, yosh, pasport , oqish_joyi , fan , oqish_turi):
+#         self.oqish_turi = oqish_turi
+#         self.fan = fan
+#         self.oqish = oqish_joyi
+#         super().init(ism, familya, yosh, pasport)
+# class oqtuvchi(shaxs):
+#     def init(self, ism, familya, yosh, pasport , diplom ):
+#         self.diplom = diplom
+#         super().init(ism, familya, yosh, pasport)
+#     def info(self):
+#         return f"Ism : {self.ism}\n familya : {self.familya}\n yosh : {self.yosh}\n shaxsini  tastiqlovchi hujjat : {self.pasport}\n Diplom : {self.diplom}"
+# oqtuvchi1 = oqtuvchi("Sulaymon" , "Axmedov" , 16 , "Guvohnoma" , "Bakalavur")
+# print(oqtuvchi1.info())
+# 41-misol
+# class inson :
+#     def init(self , ismi , yoshi , manzili):
+#         self.ism = ismi 
+#         self.yosh = yoshi
+#         self.manzil = manzili
+# class shifokor(inson):
+#     def init(self, ismi, yoshi, manzili , diplomi):
+#         self.diplom = diplomi
+#         super().init(ismi, yoshi, manzili) 
+#     def info (self):
+#         return f"Ismi : {self.ism}\n Yoshi : {self.yosh}\n Yashash manzili : {self.manzil}\n diplom bor/yo'q : {self.diplom}"
+# shaxs = shifokor("Doctor" , 35 , "Yakkachuqur MFY" , "bor" )
+# print(shaxs.info())
+# 42-misol
+# class kitob:
+#     def init(self , nomi , mavzusi , turi ):
+#         self.nom = nomi
+#         self.mavzusi =mavzusi
+#         self.turi = turi
+# class audikitob(kitob):
+#     def init(self, nomi, mavzusi, turi , dizayni , ovozi):
+#         self.dizayn = dizayni
+#         self.ovoz = ovozi
+#         super().init(nomi, mavzusi, turi)
+#     def info(self):
+#         return f"Nomi : {self.nom}\nTuri : {self.turi}\n dizayni : {self.dizayn}\n mavzusi : {self.mavzusi}\n ovoz sozlamasi : {self.ovoz}"
+# savdo = audikitob("Biznes boshlash 202 loyiha" , "badiy" , "oq jigarrang " , "Biznes boshlash" , "mayin ")
+
+
+# print(savdo.info())
+# 43-misol
+# class Qurilma :
+#     def init(self , tok , nomi ):
+#         self.nomi = nomi
+#         self.tok = tok
+# class televizor(Qurilma):
+#     def init(self, tok, nomi , ekran_kattaligi , smart):
+#         self.ekran = ekran_kattaligi
+#         self.smart = smart
+#         super().init(tok, nomi)
+#     def info(self):
+#         return f"Tok olishi : {self.tok} W \n Nomi : {self.nomi} \n Ekran sifati : {self.ekran}Full HDc\n smart watch/ watch: {self.smart}"
+# smartwatch = televizor("batareka" , "Iwatch" , 1080 , "smart ")
+# 44-misol
+# class sportchi :
+#     def init(self , sport_turi , vaxti ):
+#         self.turi = sport_turi
+#         self.vaxt = vaxti
+# class futbolchi(sportchi):
+#     def init(self, sport_turi, vaxti , formasi , team):
+#         self.team = team
+#         self.forma = formasi
+#         super().init(sport_turi, vaxti)
+#     def info (self):
+#         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}S\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
+# class baskedbolchi(sportchi):
+#     def init(self, sport_turi, vaxti , formasi , team):
+#         self.team = team
+#         self.forma = formasi
+#         super().init(sport_turi, vaxti)
+#     def get_info (self):
+#         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}min\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
+# game = baskedbolchi( "basketboll" , 45 , "butsi , shortik , futbolka" , 6)
+# sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
+# print(sport.info() , game.get_info())
+
+
      
 
 
