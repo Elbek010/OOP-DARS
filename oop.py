@@ -1058,7 +1058,7 @@
 #         super().init(sport_turi, vaxti)
 #     def get_info (self):
 #         return f"Sport turi : {self.turi}\n Trenirovka vaqti : {self.vaxt}min\n formasi : {self.forma}\n jamoasi soni : {self.team}ta"
-# game = baskedbolchi( "basketboll" , 45 , "butsi , shortik , futbolka" , 6)
+# game = baskedbolchi( "basketboll" , 45 , "butsi , shortik , futbolka" , 10)
 # sport = futbolchi("Futbol" , "1:30" , "butsi , shortik , futbolka" , 12 )
 # print(sport.info() , game.get_info())
 # 45-misol
@@ -1073,14 +1073,41 @@
 #         super().init(ishchi)
 #     def info(self):
 #         return f"ishchilar soni : {self.ishchi}\n Kampyuter soni : {self.ishchi}\n Raxbar ismi : {self.ism}\n lavozimi : {self.lavozim}"
-# kam1 = Raxbar(10 , 20 , "Sulaymon" , "rahbar" )
+# kam1 = Raxbar(10 , 20 , "Elbek" , "rahbar" )
 # print(kam1.info())
+
+
 # 46-misol
+
+# class Hayvon:
+#     def __init__(self, nomi, yoshi):
+#         self.nomi = nomi
+#         self.yoshi = yoshi
+
+#     def get_info(self):
+#         return f"Hayvon nomi: {self.nomi}\nYoshi: {self.yoshi}"
+# class Ot(Hayvon):
+#     def __init__(self, nomi, yoshi, rangi):
+#         super().__init__(nomi, yoshi)
+#         self.rangi = rangi
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nRangi: {self.rangi}"
+# ot1 = Ot("Chopon", 5, "Qora")
+# print(ot1.get_info());
+
+
+
+
+
+
+
 
      
 
 
         
+
 
 
 
