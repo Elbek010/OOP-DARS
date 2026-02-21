@@ -1096,6 +1096,78 @@
 # ot1 = Ot("Chopon", 5, "Qora")
 # print(ot1.get_info());
 
+# 47-misol
+
+# class mashina:
+#     def __init__(self,madel,rangi,prabeg,yil):
+#         self.madel = madel
+#         self.rang = rangi
+#         self.prabeg = prabeg
+#         self.yil = yil 
+
+#     def info(self):
+#         return f"Madeli: {self.madel} Rangi: {self.rang} Yili: {self.yil} Prabeg: {self.prabeg}"
+# class Yengilmashina(mashina):
+    
+#     def info(self,ogirlik):
+#         self.ogirlik = ogirlik
+#         return f"Madeli: {self.madel} Rangi: {self.rang} Yili: {self.yil} Prabeg: {self.prabeg} O'girlik: {self.ogirlik}"
+    
+# class Yukmashina(mashina):
+#     def info(self,ogirlik):
+#         self.ogirlik = ogirlik
+#         return f"Madeli: {self.madel} Rangi: {self.rang} Yili: {self.yil} Prabeg: {self.prabeg} O'girlik: {self.ogirlik}"
+# yengil = Yengilmashina("Lacetti", "Oq", 50000, 2015)
+# print(yengil.info("1.5 tonna"))
+# yuk = Yukmashina("Kamaz", "Qora", 200000, 2010)
+# print(yuk.info("10 tonna"))
+
+
+# 48-misol
+
+# class Shaxs:
+#     def __init__(self, ism, yosh):
+#         self.ism = ism
+#         self.yosh = yosh
+
+#     def get_info(self):
+#         return f"Ismi: {self.ism}\nYoshi: {self.yosh}"
+# class Dasturchi(Shaxs):
+#     def __init__(self, ism, yosh, dasturlash_tili):
+#         super().__init__(ism, yosh)
+#         self.dasturlash_tili = dasturlash_tili
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nDasturlash tili: {self.dasturlash_tili}"
+# dasturchi1 = Dasturchi("Elbek", 16, "Python")
+# print(dasturchi1.get_info())
+
+# 49-misol
+
+# class Avto:
+#     def __init__(self, nomi, modeli, rangi):
+#         self.nomi = nomi
+#         self.modeli = modeli
+#         self.rangi = rangi
+
+#     def get_info(self):
+#         return f"Avto nomi: {self.nomi}\nModeli: {self.modeli}\nRangi: {self.rangi}"    
+# class Detail(Avto):
+#     def __init__(self, nomi, modeli, rangi, narxi):
+#         super().__init__(nomi, modeli, rangi)
+#         self.narxi = narxi
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nNarxi: {self.narxi}"
+# detail1 = Detail("Lacetti", "1.5", "Oq", 5000)
+# print(detail1.get_info())
+
+
+
+
+
+
+
 
 
 
