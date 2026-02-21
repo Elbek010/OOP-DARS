@@ -1162,6 +1162,27 @@
 # detail1 = Detail("Lacetti", "1.5", "Oq", 5000)
 # print(detail1.get_info())
 
+# 50-misol
+
+# class Ota:
+#     def __init__(self, ism, yosh):
+#         self.ism = ism
+#         self.yosh = yosh
+
+#     def get_info(self):
+#         return f"Ota ismi: {self.ism}\nOta yoshi: {self.yosh}"
+# class Bola(Ota):
+#     def __init__(self, ism, yosh, maktab):
+#         super().__init__(ism, yosh)
+#         self.maktab = maktab
+
+#     def get_info(self):
+#         return f"{super().get_info()}\nBola maktabi: {self.maktab}"
+# ota1 = Ota("Shavkat", 40)
+# bola1 = Bola("Hasan", 15, "20-maktab")
+# print(ota1.get_info())
+# print(bola1.get_info())
+
 
 
 
